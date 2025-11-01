@@ -1,0 +1,24 @@
+# Line endings policy
+# Default: use LF in repo AND working tree for consistency across OS
+* text eol=lf
+
+# Images / binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.heic binary
+*.gif binary
+*.pdf binary
+*.jar binary
+*.zip binary
+
+# Scripts and wrappers
+*.sh text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+

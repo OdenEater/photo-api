@@ -1,0 +1,44 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Gradle/Java
+.gradle/
+build/
+out/
+bin/
+target/
+
+# Logs
+logs/
+*.log
+
+# Spring Boot configs (local/secrets)
+application-local.yml
+application-*.local.yml
+.env
+.env.*
+*.env
+
+# Service account / credentials (keep outside repo ideally)
+*service-account*.json
+*credentials*.json
+
+# Frontend (if added)
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# Misc
+*.swp
+*.swo
+
